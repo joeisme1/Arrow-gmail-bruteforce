@@ -1,4 +1,6 @@
 import smtplib
+import colorama
+from colorama import Fore, Style
 yeet = 1
 print('\\\___________\'')
 print('///************/')
@@ -24,6 +26,6 @@ while 1 == 1:
 	else:
 		break
 print('PASSWORD	FOUND!!!')
-print(uname)
-print(pword)
+print(Fore.GREEN + uname)
+print(Fore.GREEN + pword)
 
